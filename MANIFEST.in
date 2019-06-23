@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include milk *.css
+recursive-include milk *.csv
+recursive-include milk *.html
+recursive-include milk *.ico
+recursive-include milk *.js
+recursive-include milk *.json
+recursive-include milk *.md
+recursive-include milk *.png
+recursive-include milk *.py
+recursive-include milk *.svg
+recursive-include milk *.txt
+recursive-exclude milk *.pyc
